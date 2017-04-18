@@ -1,0 +1,167 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/Charlotteis/poopthis#readme"
+
+    >poopthis (v1.1.2)</a>
+</h1>
+<h4>Returns a string surrounded by the poop emoji (poomoji)</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.poopthis">module poopthis</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.poopthis.poopthis">
+            function <span class="apidocSignatureSpan"></span>poopthis
+            <span class="apidocSignatureSpan">(string, times)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.poopthis.toString">
+            function <span class="apidocSignatureSpan">poopthis.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.poopthis.toString">module poopthis.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.poopthis.toString.toString">
+            function <span class="apidocSignatureSpan">poopthis.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.poopthis" id="apidoc.module.poopthis">module poopthis</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.poopthis.poopthis" id="apidoc.element.poopthis.poopthis">
+        function <span class="apidocSignatureSpan"></span>poopthis
+        <span class="apidocSignatureSpan">(string, times)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function pooptimes(string, times) {
+  if (times === undefined) {
+    times = 1
+  }
+
+  const trimmedString = string.trim()
+  const poop = emoji.get(&#x27;hankey&#x27;)
+  if (times === 0) {
+    return string
+  }
+
+  return pooptimes(poop + &#x27; &#x27; + trimmedString + &#x27; &#x27; + poop, times - 1)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.poopthis.toString" id="apidoc.element.poopthis.toString">
+        function <span class="apidocSignatureSpan">poopthis.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.poopthis.toString" id="apidoc.module.poopthis.toString">module poopthis.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.poopthis.toString.toString" id="apidoc.element.poopthis.toString.toString">
+        function <span class="apidocSignatureSpan">poopthis.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
