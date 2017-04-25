@@ -1,6 +1,7 @@
-# npmdoc-poopthis [![npm package](https://img.shields.io/npm/v/npmdoc-poopthis.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-poopthis) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-poopthis.svg)](https://travis-ci.org/npmdoc/node-npmdoc-poopthis)
+# npmdoc-poopthis
 
-api documentation for  [poopthis (v1.1.2)](https://github.com/Charlotteis/poopthis#readme)
+#### basic api documentation for  [poopthis (v1.1.2)](https://github.com/Charlotteis/poopthis#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-poopthis.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-poopthis) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-poopthis.svg)](https://travis-ci.org/npmdoc/node-npmdoc-poopthis)
+
 #### Returns a string surrounded by the poop emoji (poomoji)
 
 [![NPM](https://nodei.co/npm/poopthis.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/poopthis)
@@ -59,7 +60,8 @@ api documentation for  [poopthis (v1.1.2)](https://github.com/Charlotteis/poopth
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "1.1.2"
+    "version": "1.1.2",
+    "bin": {}
 }
 ```
 
